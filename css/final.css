@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(146, 196, 240);
+}
+.container{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 435px;
+    position: relative;
+    height: 700px;
+    border: solid #fff 2px;
+    padding: 15px;
+    
+    border-radius: 55px;
+    box-shadow:0px 0px 25px #fff;
+}
+h2{font-size: 50px;
+    padding: 25px;
+    border: 2px solid #fff;
+    border-radius: 55px;
+    box-shadow: 13px 5px 25px #fff;
+    margin: 15PX 15PX;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px  rgb(207, 203, 203);
+    margin-bottom: 55px;
+}
+p{
+    position: absolute;
+    text-align: justify;
+    font-weight: bold ;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px 20px;
+    
+}
+
+.position{
+    background-color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    
+}
+.slider{ 
+    background-color: #fff;
+    border: solid #fff 3px;
+    background-image: url(/slider/slider1.webp);
+    background-size: cover;
+    height: 75%;
+    width:20%;
+    border-radius: 18px;
+    animation: animate 30s infinite;
+}
+
+@keyframes animate{
+    20%{
+        background-image: url(/slider/slider2.webp);
+        background-size:  cover;
+        width: 25%;
+    }
+    
+    30%{
+        background-image: url(/slider/slider3.webp);
+        background-size:  cover;
+        width: 25%;
+     
+    }
+    40%{
+        background-image: url(/slider/slider4.webp);
+        background-size:  cover;
+        width: 25%;
+     
+    }
+    50%{
+        background-image: url(/slider/slider5.webp);
+        background-size:  cover;
+        width: 25%;
+    
+    }
+    60%{
+        background-image: url(/slider/slider7.webp);
+        background-size:  cover;
+        width: 25%;
+    
+    }
+    70%{
+        background-image: url(/slider/silder8.webp);
+        background-size:  cover;
+        width: 25%;
+    
+    }
+    80%{
+        background-image: url(/slider/slider10.jpg);
+        background-size:  cover;
+        width: 25%;
+    }
+    90%{
+        background-image: url(/slider/slider9.webp);
+        background-size:  cover;
+        width: 25%;
+    }
+    100%{
+        background-image: url(/slider/slider6.webp);
+        background-size: cover;
+     width: 25%;
+    
+
+    }
+}
+/* .slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+   
+}
+.slider li{
+    width:auto;
+    list-style: none;
+    
+}
+.slider img{
+    
+    width:100% ;
+
+    height:30%;
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    75%{ margin-left: -200%;}
+
+    80% { margin-left: -300%;}
+    100%{ margin-left: -300%;}
+
+    
+}
+li{
+    padding: 7px;
+    margin-left: 15px;
+    
+} */
+footer{
+    top: 435px;
+    position: absolute;
+    text-align: justify;
+    font-weight: bold ;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px 20px;
+}
+@media screen and (max-width: 500px) {
+    
+  
+    .container{
+        top: 50px;
+        height: 1450px;
+        margin:10px 10px;
+        width: 95%;
+        position: relative;
+        /* border: 1px rgb(122, 193, 224) solid;
+        box-shadow: 0px 0px 20px rgb(87, 189, 236); */
+        
+        
+    }
+    .parrafo{
+        margin:1px 1px;
+        margin-top: 25px;
+      
+        font-size: 20px;
+    }
+    footer{
+        margin: 1px 1px;
+        font-size: 19px;
+        margin-top:575px
+    }
+
+    h2{
+    font-weight: 1505px;
+        /* border: solid 5px rgb(116, 201, 250); */
+        font-size: 25px;
+        color:rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 35px;
+    }
+  .slider-container{ 
+    opacity: 0.9;;
+    margin-top:-35px;
+    top:1750px;
+    display: flex;
+    position: absolute;
+    width: 950px;
+    height: 550px;
+    left: 45px;
+    
+  }
+}
